@@ -145,6 +145,10 @@ body {
     width: 650px;
     height: 200px;
   }
+  .aeroguard-pic {
+    width: 650px;
+    height: 200px;
+  }
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1919px) {
@@ -321,6 +325,7 @@ body {
 @media only screen and (max-width: 480px) {
   /* Styles for small smartphones */
   .presentation {
+    margin: 2%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
@@ -353,6 +358,9 @@ body {
   .evidenta-smile-pic {
     width: 200px;
     height: 200px;
+  }
+  .logo {
+    margin: 1rem;
   }
 }
 /* breakpoints needed */
