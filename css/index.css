@@ -156,13 +156,74 @@ body {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  /* Styles for small desktops */
+  .presentation {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    width: 100%;
+    justify-items: center;
+  }
+
+  .project {
+    background: #1d2738;
+    border-radius: 0.5rem;
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .presentation {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
-    width: 130%;
+    width: 100%;
     justify-items: center;
+  }
+  .project {
+    background: #1d2738;
+    border-radius: 0.5rem;
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Styles for landscape tablets */
+  .presentation {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    width: 100%;
+    justify-items: center;
+  }
+  .project {
+    background: #1d2738;
+    border-radius: 0.5rem;
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+
+  .blackjack-pic {
+    width: 400px;
+    height: 200px;
   }
 }
 
